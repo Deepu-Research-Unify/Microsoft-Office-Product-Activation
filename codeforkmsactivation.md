@@ -2,6 +2,12 @@
 Steps toward the MS Office Activation
 CMD as Administrator
 --------------------------------------------------------------------------------------
+
+cd C:\Program Files\Microsoft Office\Office16
+cscript ospp.vbs /sethst:kms.03k.org
+cscript ospp.vbs /act
+
+--------------------------------------------------------------------------------------
 Step 1. Copy path of MS Office File (C:\Program Files\Microsoft Office\Office16) 
 	type "cd"<space>"C:\Program Files\Microsoft Office\Office16" + Enter
 Step 2. type "cscript ospp.vbs /sethst:kms.03k.org" + Enter
